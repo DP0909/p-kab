@@ -1,0 +1,212 @@
+
+/*Reusable Component*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", Cyreal;
+
+}
+
+html{
+  background-color: rgb(255, 255, 255);
+  color: rgb(7, 6, 6);
+  font-family: "Lobster" , Arial;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  }
+
+  img{
+    background-color: #d4d4d4;
+  }
+.nav-bar{
+  top: -10px;
+  margin: 0 auto;
+  position: relative;
+  left: 55px;
+  word-spacing: normal;
+  width: 1140px;
+  display: inline-block;
+    
+}
+.main-nav{
+  padding-right: -2%;
+  float: right;
+  list-style-type: none;
+  margin-top: -120px;
+  font-size: 23px;
+}
+
+/*
+color for btn link nav: #ea2027
+*/
+
+.btn:link,
+.btn:visited,
+input[type="submit"]{
+  position: relative; top: 20px;
+  display: inline-block;
+  padding: 10px 20px; /*top right bottom left*/
+  font-weight: 200;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type="submit"]
+{
+  color: rgb(0, 0, 0);
+  border: 1px solid #ffffff;
+  background-color: #ea2027;
+  margin-right: 5px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+  background-color: #ffffff;
+  color: #000000;
+}
+.btn-full:hover{
+  background-color: #000000;
+}
+input[type="submit"]:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(240, 240, 240);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+/*----------------------------*/
+/*-----Logo&navigation--------*/
+/*----------------------------*/
+
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 30pxx;
+}
+.main-nav li a{
+  padding: 8px, 0;
+  color: #000102;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90%; /*20 * 0.9 = 18.0*/
+  text-decoration: none;
+}
+.logo{
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-top: 30px;
+  border-radius: 10%;
+}
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+  .head{
+    font-family:sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+footer ion-icon {
+  color: #555;
+  font-size: 190%;
+}
+footer {
+  background-color: #191f24;
+  padding: 30px;
+  font-size: 30px;
+  float: bottom;
+}
+.footer-nav{
+  margin-bottom: 10px;
+  list-style: none;
+  float: bottom;
+  margin-top: 100px;
+}
+.social-links {
+  padding: 1%;
+  list-style: none;
+  font-size: 45px;
+  word-spacing: 110px;
+}
+
+.footer-nav li,
+.social-links li{
+  margin-top: 1%;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer p{
+  color: #888;
+  text-align: center;
+  font-size: 80%;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+  
+  text-decoration: none;
+  border: none;
+  color: #555;
+}
+.footer-nav li a:hover,
+footer-nav li a:active,
+.social-links li a ion-icon:hover,
+.social-links li a ion-icon:active{
+  color: red;
+  transition: color 0.02s;
+}
+
+.footer-nav li :last-child,
+.social-linksli:last-child{
+  margin-right: 0;
+}
+
+/*----Email and Contact NO----*/
+
+.head-main{
+  padding-left: 10%;
+  top: -25px;
+  padding-bottom: -300px;
+  font-size: 30px;
+  list-style:none;
+}
+
+.head-1-main{
+  font-size: 30px;
+  padding-left: 11.5%;
+  list-style:none;
+}
+/*----Gmail Img----*/
+
+.image{
+  position: relative;
+  top: 45px;
+  left: 40px;
+  padding: 1px;
+  width: 3%;
+  height: auto;
+}
+
+/*-----Telephone ---------*/
+.image-2{
+  position: relative;
+  top: 40px;
+  left: 60px;
+  width: 3%;
+  height: auto;
+}
