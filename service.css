@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lobster", Cyreal;
+  
+  }
+  
+  html{
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 6, 6);
+    font-family: "Lobster" , Arial;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    }
+
+     /*---Logo and Nav Bar----*/
+.nav-bar{
+  top: -10px;
+  margin: 0 auto;
+  position: relative;
+  left: 55px;
+  word-spacing: normal;
+  width: 1140px;
+  display: inline-block;
+    
+}
+.main-nav{
+  padding-right: -2%;
+  float: right;
+  list-style-type: none;
+  margin-top: -120px;
+  font-size: 23px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 30pxx;
+}
+.main-nav li a{
+  padding: 8px, 0;
+  color: #000102;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90%; /*20 * 0.9 = 18.0*/
+  text-decoration: none;
+}
+.logo{
+  border: none;
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-top: 30px;
+  border-radius: 10%;
+}
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*
+color for btn link nav: #ea2027
+*/
+
+.btn:link,
+.btn:visited,
+input[type="submit"]{
+  position: relative; top: 20px;
+  display: inline-block;
+  padding: 10px 20px; /*top right bottom left*/
+  font-weight: 200;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type="submit"]
+{
+  color: rgb(0, 0, 0);
+  border: 1px solid #ffffff;
+  background-color: #ea2027;
+  margin-right: 5px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+  background-color: #ffffff;
+  color: #000000;
+}
+.btn-full:hover{
+  background-color: #000000;
+}
+input[type="submit"]:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(240, 240, 240);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+/*------- h2 and h3 -------*/
+.header{
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 1px;
+    padding-left: 490px;
+}
+
+.head{
+  margin-top: 30px;
+  padding-left:340px;
+  font-size: 33px;
+  font-style: italic;
+}
+
+blockquote{
+  margin-top: 10px;
+  font-style: italic;
+  line-height: 100%;
+  position: relative;
+  }
+  blockquote:before{
+    content: "\201C";
+    font-size: 300%;
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: -60px;
+}
+/*-------- Logo --------*/
+img{
+  max-width: 100%;
+  border-radius: 20px;
+  height: 330px;
+  opacity: 100%;
+  border: 5px solid #000000;
+  background-color: #d4d4d4;
+ 
+}
+ /* ------ Img 1 -------*/
+.row-head{
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 100%;
+  height: 250px;
+  opacity: 100%;
+  background-color: #ffffff;
+}
+.row-header{
+  font-style: oblique;
+  font-size: 25px;
+  margin-left: 130px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+ /* ------ Img 2 -------*/
+.row-head-1{
+  border: #ffffff;
+  margin-top: -250px;
+  margin-left: 750px;
+  max-width: 50%;
+  height: auto;
+  opacity: 100%;
+  background-color: #ffffff;
+}
+.row-header-1{
+  font-style: oblique;
+  font-size: 25px;
+  margin-left: 110px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+ /* ------ Img 3 -------*/
+ .row-head-2{
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 100%;
+  height: 250px;
+  opacity: 100%;
+  border: #ffffff;
+  background-color: #ffffff;
+}
+.row-header-2{
+  font-style: oblique;
+  font-size: 25px;
+  margin-left: 110px;
+  margin-top: 20px;
+  opacity: 100%;
+  background-color: #ffffff;
+}
+ /* ------ Img 4 -------*/
+ .row-head-3{
+  margin-top: -250px;
+  margin-left: 750px;
+  max-width: 100%;
+  height: 250px;
+  opacity: 100%;
+  background-color: #ffffff;
+}
+.row-header-3{
+  font-style: oblique;
+  font-size: 25px;
+  margin-left: 80px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+ /* ------ Img 5 -------*/
+.row-head-4{
+  margin-top: 180px;
+  margin-left: 100px;
+  width: 100%;
+  height: 250px;
+  opacity: 100%;
+  border: #ffffff;
+  background-color: #ffffff;
+}
+.row-header-4{
+  font-style: oblique;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 20px;
+  opacity: 100%;
+  background-color: #ffffff;
+}
+ /* ------ Img 6 -------*/
+ .row-head-5{
+  margin-top: -250px;
+  margin-left: 700px;
+  max-width: 100%;
+  height: 250px;
+  opacity: 100%;
+  background-color: #ffffff;
+}
+.row-header-5{
+  font-style: oblique;
+  font-size: 25px;
+  margin-left: 120px;
+  margin-top: 20px;
+  background-color: #ffffff;
+}

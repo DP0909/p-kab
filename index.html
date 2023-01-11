@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>P-KAB</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/P-KAB.png">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+ <!-- Header Design-->
+ <header>
+  <nav>
+    <!--Nav Bar-->
+    <div class="row">
+    <img src="img/logo.png" alt="P-Kab Logo" class="logo" />
+     <div class="nav-bar">
+        <ul class="main-nav">
+           <li><a class="btn btn-ghost js-scroll-to-start" href="index.html"><b>Home</b></a></li>
+           <li><a class="btn btn-ghost js-scroll-to-start" href="about.html"><b>About Us</b></a></li>
+           <li><a class="btn btn-ghost js-scroll-to-start" href="service.html"><b>Services</b></a></li>
+           <li><a class="btn btn-ghost js-scroll-to-start" href="client.html"><b>Client</b></a></li>
+           <li><a class="btn btn-ghost js-scroll-to-start" href="contact.html"><b>Contact US</b></a></li>
+          </ul>
+        </div>
+        </div>
+      <!--Images Section-->
+      
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="img/1 (1).jpeg" style="width:300%">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/1 (3).jpeg" style="width:300%">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/5.jpg" style="width: 300%">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/freight forwarding.jpg" style="width: 300%">
+        </div>
+        <!--Next and Previous Buttons-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <script>
+
+        var slideIndex = 1;
+        
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+        
+          showSlides(slideIndex += n);
+        
+        }
+        
+        function currentSlide(n) {
+        
+          showSlides(slideIndex = n);
+        
+        }
+        
+        function showSlides(n) {
+        
+          var i;
+        
+          var slides = document.getElementsByClassName("mySlides");
+        
+          var dots = document.getElementsByClassName("dot");
+        
+          if (n > slides.length) {
+        
+            slideIndex = 1
+        
+          }
+        
+          if (n < 1) {
+        
+            slideIndex = slides.length
+        
+          }
+        
+          for (i = 0; i < slides.length; i++) {
+        
+            slides[i].style.display = "none";
+        
+          }
+        
+          for (i = 0; i < dots.length; i++) {
+        
+            dots[i].className = dots[i].className.replace(" active", "");
+        
+          }
+        
+          slides[slideIndex - 1].style.display = "block";
+        
+          dots[slideIndex - 1].className += " active";
+        
+        }
+        
+        </script>
+        
+        
+    </nav>
+  </header>
+</body>
+</html>
